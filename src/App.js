@@ -1,24 +1,14 @@
 
 import './App.css';
-import Clock1 from './components/PresentationalComponent/Function';
-import Clock2 from './components/PresentationalComponent/Class';
-import Clock3 from './components/StatefulComponent/StatefulClass';
-import Clock4 from './components/StatefulComponent/StatefulFunction';
-import Clock5 from './components2/PresentationalComponent/Function';
-import Clock6 from './components2/PresentationalComponent/Class';
-import Clock7 from './components2/StatefulComponent/Class';
-import Clock8 from './components2/StatefulComponent/Function'
+// import Cosmetics from './components/Cosmetics/Cosmetics';
+// import Cosmetics2 from './components/Cosmetics2/Cosmetics2';
+import Cosmetics3 from './components/Cosmetics3/Cosmetics3';
 function App() {
   return (
     <div className="App">
-      <Clock1 locale="bn-BD"></Clock1>
-      <Clock2 locale="bn-BD"></Clock2>
-      <Clock3 locale="bn-BD"></Clock3>
-      <Clock4 locale="bn-BD"></Clock4>
-      <Clock5 locale="en-US"></Clock5>
-      <Clock6 locale="en-US"></Clock6>
-      <Clock7 locale="en-US"></Clock7>
-      <Clock8 locale="en-US"></Clock8>
+      {/* <Cosmetics></Cosmetics> */}
+      {/* <Cosmetics2></Cosmetics2> */}
+      <Cosmetics3></Cosmetics3>
     </div>
   );
 }
